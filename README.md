@@ -4,6 +4,8 @@ a windows x64 stack tracer written in go. given a process name or pid, it suspen
 
 adapted from [stacktracer](https://github.com/whokilleddb/stacktracer) by whokilleddb. the original used dbghelp (`StackWalk64`, `SymFromAddrW`, etc.). this version reimplements everything manually with no dbghelp :3 and no symbol engine, also no kernel32 imports.
 
+## demo 
+<img width="478" height="728" alt="image" src="https://github.com/user-attachments/assets/a81dabb7-a344-434d-b670-77a106a3fe28" />
 
 ## how it works
 
